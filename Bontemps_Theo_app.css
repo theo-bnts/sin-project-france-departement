@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vh;
+    height: 100vh;
+    background-color: rgb(29, 29, 29);
+    vertical-align: middle;        
+    overflow: hidden;
+}
+
+#mapEtInformations {
+    background-color: rgb(29, 29, 29);
+    display: flex;   
+    margin-top: 10vh;
+    margin-left: 10vh;
+}
+
+#map {
+    position: absolute;
+    top: 15vh;
+    left: 20vh;
+}
+
+.infos {
+    position: absolute;
+    top: 40vh;
+    left: 70%;
+    padding: 5vh;
+    border-radius: 50;
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.infosV {
+    position: absolute;
+    top: 40vh;
+    left: 70%;
+    padding: 5vh;
+    color: white;
+    border-radius: 50;
+    background-color: rgb(0, 99, 8);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.infosX {
+    position: absolute;
+    top: 40vh;
+    left: 70%;
+    padding: 5vh;
+    color: white;
+    border-radius: 50;
+    background-color: rgb(184, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#input {
+    position: absolute;
+    top: 20vh;
+    left: 70%;
+    padding: 5vh;
+    border: 0;
+    border-radius: 50;
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
